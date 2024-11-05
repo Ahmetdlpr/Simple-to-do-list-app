@@ -1,0 +1,21 @@
+.Header
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size:large;
+     width:95%;
+     margin-left:1em;
+     margin-bottom:1em;
+     height:3em;
+     background-color: #5c53a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     box-shadow: 10px 10px 10px 10px #242424;
+     border-radius:0.2em;
+}
+.Header h2 
+{
+   color:white;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
