@@ -1,6 +1,50 @@
 .input-container
 {
-    width:10em;
+    width:95%;
     height: 10em;
-    background-color: purple;
+    background-color: #5c53a3;
+    box-shadow: 10px 10px 10px 10px #242424;
+    margin-left:0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0px;
+    border-radius:0.2em;
+
+}
+.input-container input 
+{
+   width:30em;
+   height:2.3em;
+   outline:none;
+   border:none;
+   margin-bottom:0em;
+   border-bottom:5px solid #242424;
+
+}
+.input-container input:focus
+{
+    transition: 0.5s all ease-in-out;
+   border-bottom:5px solid lightgreen;
+   width:50em;
+   background-color: #242424;
+   color:lightgreen;
+   margin-bottom:0.1em;
+   height:2.3em;
+
+
+}
+.input-container button 
+{
+    top:27%;
+    left:45%;
+    padding:0.5em;
+    border:none;
+    background-color: #242424;
+    color:white;
+    font-size:large;
+    color:lightgreen;
+    border-top-right-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    cursor:pointer;
 }

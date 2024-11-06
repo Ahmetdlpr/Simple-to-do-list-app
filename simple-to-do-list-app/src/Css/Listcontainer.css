@@ -1,0 +1,35 @@
+.Listcontainer 
+{
+    width:95%;
+    height:25em;
+    background-color: #5c53a3;
+    margin-top:1em;
+    margin-left:1em;
+    box-shadow: 10px 10px 10px 10px #242424;
+    border-radius:0.2em;
+
+}
+.List
+{
+  width:94;
+  height:100%;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar{
+ background-color: #5c53a3;
+}
+.List li
+{
+  margin-left:2.9em;
+  margin-top:1em;
+  font-size:large;
+  width:80%;
+  height:2em;
+  background-color: lightgreen;
+  text-align: center;
+  list-style: none;
+  padding-top:0.5em;
+  font-family:cursive;
+  box-shadow:10px 10px 10px 10px #242424;
+  border-radius:0.2em;
+}
