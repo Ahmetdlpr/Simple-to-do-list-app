@@ -11,3 +11,45 @@
   padding-top:0.6em;
   transform: scale(0);
 }
+.signincontainer
+{
+  width:55em;
+  height:20em;
+  background-color: #5c53a3;
+  margin-left:20%;
+  margin-top:10%;
+  border-radius:0.2em;
+  box-shadow: 10px 10px 10px 10px #242424;
+  padding-top:4em;
+}
+.signincontainer h2 
+{
+  margin-left:6em;
+  background-color: #5c53a3;
+width: 25em;
+text-align: center;
+height:2em;
+padding-top:9.9px;
+border-radius:0.2em;
+box-shadow: 10px 10px 10px 10px #242424;
+color:white;
+}
+.signincontainer div button 
+{
+  margin-left:25em;
+  margin-top:1em;
+  font-size:medium;
+  border-radius:0.3em;
+  background-color: black;
+  color:white;
+  cursor:pointer;
+  padding:0.4em;
+
+}
+.signincontainer div button:hover
+{
+  transition: 0.5s all ease-in-out;
+  color:lightgreen;
+  border:3px solid lightgreen;
+  padding:0.4em;
+}
